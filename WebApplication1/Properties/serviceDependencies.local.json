@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "compute.appService1": {
+      "group": "connections",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/WebServiceT",
+      "type": "compute.appService.windows"
+    },
+    "mssql1": {
+      "secretStore": null,
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/verdadeirodb/databases/verdadeiraDB",
+      "type": "mssql.azure",
+      "connectionId": "verdadeirodb/verdadeiraDB"
+    }
+  }
+}
